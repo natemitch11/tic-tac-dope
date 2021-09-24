@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    background: linear-gradient(37deg, #141e30, #243b55 );
+    color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+
+}
+.main-content{
+    height: 100vh;
+}
+#game-board {
+    height: 300px;
+    width: 300px;
+    border: solid 1px white;
+    margin-bottom: 2em;
+}
+
+#game-board td {
+    border: solid 1px white;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 45px;
+}
+#game-board td:hover {
+    background: linear-gradient(37deg, #de6262, #ffb88c);
+    
+}
+
+#start-game {
+    height: 40px;
+    width: 80px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 15px;
+    box-shadow: gray 1px 1px 3px;
+}
+
+#start-game:hover{
+    background: linear-gradient(37deg, #de6262, #ffb88c);
+    color: white;
+    font-size: 20px;
+    height: 42px;
+    width: 84px;
+}
+
+#reset-game {
+    height: 40px;
+    width: 80px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 15px;
+    box-shadow: gray 1px 1px 3px;
+}
+
+#reset-game:hover{
+    background: linear-gradient(37deg, #de6262, #ffb88c);
+    color: white;
+    height: 42px;
+    width: 84px;
+}
+
+.hidden{
+    display: none;
+}
+.reset-btn{
+    display: flex;
+    justify-content: center;
+}
